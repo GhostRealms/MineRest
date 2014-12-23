@@ -16,6 +16,10 @@ public class MineRest extends JavaPlugin {
     @Override
     public void onEnable() {
         this.saveDefaultConfig();
+        if(!this.getConfig().getBoolean("enable")) {
+            getLogger().severe("Disabling MineRest. Set Disabled in the Configuration.");
+            this.setEnabled(false);
+        }
         if(this.getConfig().getString("key").equalsIgnoreCase("change me")) {
             getLogger().severe("Unable to load MineRest. Please update your API Key!");
             getLogger().severe("Without updating the API Key, anyone can access your API!");
