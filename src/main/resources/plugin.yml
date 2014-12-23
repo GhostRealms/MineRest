@@ -1,0 +1,7 @@
+name: MineRest
+version: 1.0-SNAPSHOT
+main: sexy.riveris.minerest.MineRest
+commands:
+  minerest:
+    description: Informational Command and Version Display
+    default: OP
