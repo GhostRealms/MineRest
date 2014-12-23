@@ -7,6 +7,8 @@ RESTful API for Minecraft Servers. API Documentation located on the Wiki, web pa
 You may download the software off of [Bukkit Dev](http://dev.bukkit.org) or [Spigot](http://spigotmc.org) when released. You may also
 download from [Github Releases](https://github.com/Rmarmorstein/MineRest/releases)
 
+Please note that this software is in an early beta stage, you may encounter errors. Please Report all errors as they appear.
+
 #### Supported operations incude:
 * Get UUID of players
 * Get online players
@@ -17,6 +19,7 @@ download from [Github Releases](https://github.com/Rmarmorstein/MineRest/release
 * Send chat messages and console commands.
 * Send commands and chat messages as other players
 * Op/Deop players
+* and more!
 
 ### More info? Questions?
 Check out the [Wiki](https://github.com/Rmarmorstein/MineRest/wiki)
