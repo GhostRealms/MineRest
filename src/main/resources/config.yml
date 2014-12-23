@@ -1,8 +1,12 @@
 #### MineRest Configuration ####
 # Configuration Settings for the Mine Rest Plugin!
+# This is all documented on GitHub!
 
 # General Settings
-enable: true
+enable: false
 key: "change me"
 
-#
+#Network Settings - Don't touch unless you know what you are doing!!!
+#MineRest works "plug and play" without editing any of these advanced settings
+port: 9090
+allow-anonymous-requests: false
