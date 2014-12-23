@@ -50,7 +50,7 @@ hs_err_pid*
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
-*.iml
+MineRest.iml
 
 ## Directory-based project format:
 .idea/
