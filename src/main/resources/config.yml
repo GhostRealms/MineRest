@@ -1,0 +1,8 @@
+#### MineRest Configuration ####
+# Configuration Settings for the Mine Rest Plugin!
+
+# General Settings
+enable: true
+key: "change me"
+
+#
