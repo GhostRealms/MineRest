@@ -21,6 +21,8 @@ Please note that this software is in an early beta stage, you may encounter erro
 * Op/Deop players
 * and more!
 
+**MineRest Will also support Custom API Calls!**
+
 ### More info? Questions?
 Check out the [Wiki](https://github.com/Rmarmorstein/MineRest/wiki)
 
