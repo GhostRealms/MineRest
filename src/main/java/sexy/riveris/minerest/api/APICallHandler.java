@@ -16,11 +16,15 @@
 
 package sexy.riveris.minerest.api;
 
+import org.json.simple.JSONObject;
+
+import java.util.concurrent.Callable;
+
 /**
  * Created by River on 23-Dec-14.
  */
 
-public abstract class APICallHandler {
+public abstract class APICallHandler implements Callable<JSONObject> {
 
     private String[] calls;
 
@@ -29,5 +33,7 @@ public abstract class APICallHandler {
         MineRestAPI.registerCalls(this, calls);
     }
 
-    public abstract Object response();
+    @Override
+    public abstract JSONObject call() throws Exception;
+
 }
