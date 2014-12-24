@@ -1,7 +1,8 @@
 MineRest
 ========
 
-RESTful API for Minecraft Servers. API Documentation located on the Wiki, web panel located [here](https://github.com/Rmarmorstein/MineRest-Web)
+RESTful API for Minecraft Servers. API Documentation located on the Wiki.
+[![Build Status](https://travis-ci.org/Rmarmorstein/MineRest.svg?branch=master)](https://travis-ci.org/Rmarmorstein/MineRest)
 
 ### Downloads
 You may download the software off of [Bukkit Dev](http://dev.bukkit.org) or [Spigot](http://spigotmc.org) when released. You may also
@@ -9,7 +10,7 @@ download from [Github Releases](https://github.com/Rmarmorstein/MineRest/release
 
 Please note that this software is in an early beta stage, you may encounter errors. Please Report all errors as they appear.
 
-#### Supported operations incude:
+#### Supported operations include:
 * Get UUID of players
 * Get online players
 * Check if a player is online
