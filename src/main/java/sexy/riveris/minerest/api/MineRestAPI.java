@@ -16,6 +16,9 @@
 
 package sexy.riveris.minerest.api;
 
+import com.google.gson.Gson;
+import org.json.simple.JSONObject;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,6 +30,19 @@ public class MineRestAPI {
     private static Map<String, APICallHandler> handlerCallMap = new HashMap<String, APICallHandler>();
 
     public static void registerCalls(APICallHandler handler, String[] calls) {
-
+        for(String call : calls) {
+            handlerCallMap.put(call, handler);
+        }
     }
+
+    public JSONObject call(String call, HashMap<String, String> params) {
+        try {
+           return handlerCallMap.get(call).call();
+        } catch(Exception ex) {
+            ex.printStackTrace();
+            return null;
+        }
+    }
+
+
 }
